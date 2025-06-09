@@ -1,0 +1,17 @@
+# --- GUI -------------------------------------------------------------
+PyQt6>=6.6        # Qt 6 bindings for Python (widgets, signals/slots, etc.)
+
+# --- Networking / async ---------------------------------------------
+aiohttp>=3.9      # Async HTTP client used for downloading EPUB files
+
+# --- Security --------------------------------------------------------
+cryptography>=42  # TLS certificate parsing & SHA-256 fingerprinting
+
+# --- EPUB parsing / XML ---------------------------------------------
+ebooklib>=0.18    # High-level EPUB read/write API
+lxml>=5.2         # Fast XML/HTML processing (used to extract XHTML body)
+
+# --- Other dependencies ---------------------------------------------
+# Note: Standard library modules used (no additional packages needed):
+# - sys, os, ssl, base64, json, zipfile, io, logging, threading
+# - re, pathlib, typing, urllib.parse, tempfile, datetime, socket
